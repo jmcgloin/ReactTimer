@@ -1,13 +1,2 @@
-$gray: #444;
-
-.top-bar {
-	background: $gray;
-}
-
-ul, li, span {
-	background: $gray;
-}
-
-.menu-text {
-	color: white;
-}
+@import 'base/variables';
+@import 'components/nav';

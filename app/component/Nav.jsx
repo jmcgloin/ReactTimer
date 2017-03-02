@@ -17,9 +17,9 @@ const Nav = React.createClass({
 					</ul>
 				</div>
 				<div className='top-bar-right'>
-					<ul>
-						<li>
-							<span>Created by <a href='https://github.com/jmcgloin' target='_blank'>Jason McGloin</a></span>
+					<ul className='menu'>
+						<li className='menu-text'>
+							Created by <a href='https://github.com/jmcgloin' target='_blank'>Jason McGloin</a>
 						</li>
 					</ul>
 				</div>
