@@ -1,0 +1,957 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"render",
+				"renderToString()\tReactDOMSever"
+			],
+			[
+				"encode",
+				"encodeURI"
+			],
+			[
+				"border-r",
+				"border-radius"
+			],
+			[
+				"compone",
+				"componentDidMount\t Life Cycle"
+			],
+			[
+				"on",
+				"onSearch"
+			],
+			[
+				"Weather",
+				"WeatherForm"
+			],
+			[
+				"g",
+				"gi\tgetElementById"
+			],
+			[
+				"ren",
+				"render()\tReactDOM"
+			],
+			[
+				"require",
+				"require\tvar x = require('x')"
+			],
+			[
+				"stat",
+				"static"
+			],
+			[
+				"requ",
+				"require\tvar x = require('x')"
+			],
+			[
+				"sc",
+				"scr\tscript"
+			],
+			[
+				"consol",
+				"console.log();"
+			],
+			[
+				"encodeURI",
+				"encodeURIComponent"
+			],
+			[
+				"creat",
+				"createElement()\tReact"
+			],
+			[
+				"ex",
+				"export"
+			],
+			[
+				"scr",
+				"script\tscript"
+			],
+			[
+				"met",
+				"meta\tTag"
+			],
+			[
+				"l",
+				"lang\tAttr"
+			],
+			[
+				"win",
+				"window"
+			],
+			[
+				"ad",
+				"addEventListener"
+			],
+			[
+				"jq",
+				"jQuery.ajax\tjQuery.ajax"
+			],
+			[
+				"fun",
+				"fun\tFunction"
+			],
+			[
+				"m",
+				"middle"
+			],
+			[
+				"rem",
+				"removeClass\t.removeClass()"
+			],
+			[
+				"has",
+				"hasClass\t.hasClass()"
+			],
+			[
+				"add",
+				"addClass\t.addClass()"
+			],
+			[
+				"re",
+				"ready\t$(document).ready"
+			],
+			[
+				"me",
+				"meta\tTag"
+			],
+			[
+				"click",
+				"click-it"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"fon",
+				"font-style"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"mous",
+				"mousedown\t.mousedown()"
+			],
+			[
+				"mou",
+				"mousedown\t.mousedown()"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/component/Main.jsx",
+			"settings":
+			{
+				"buffer_size": 150,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/component/Nav.jsx",
+			"settings":
+			{
+				"buffer_size": 792,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/styles/app.scss",
+			"settings":
+			{
+				"buffer_size": 115,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 172.0,
+		"last_filter": " install",
+		"selected_items":
+		[
+			[
+				" install",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"babel",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"jsx",
+				"Set Syntax: JSX"
+			],
+			[
+				"pac",
+				"Package Control: List Packages"
+			],
+			[
+				"synt",
+				"Set Syntax: JSX"
+			],
+			[
+				"ren",
+				"File: Rename"
+			],
+			[
+				"new file",
+				"File: New File Relative to Current View"
+			],
+			[
+				"pro",
+				"Project: Add Folder"
+			],
+			[
+				"clos",
+				"Project: Close"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"delete",
+				"ANF: Delete File"
+			],
+			[
+				"synt css",
+				"Set Syntax: CSS"
+			],
+			[
+				"r",
+				"File: Rename"
+			],
+			[
+				"rena",
+				"File: Rename"
+			],
+			[
+				"file new",
+				"File: New File Relative to Current View"
+			],
+			[
+				"syntax j",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"new",
+				"File: New File Relative to Project Root"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"new  ",
+				"File: New File Relative to Project Root"
+			],
+			[
+				"del",
+				"File: Delete"
+			],
+			[
+				"renam",
+				"File: Rename"
+			],
+			[
+				"syntax bab",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"syntax",
+				"Set Syntax: JSX"
+			],
+			[
+				"syntax ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"folder",
+				"Project: Add Folder"
+			],
+			[
+				"file",
+				"File: New View into File"
+			],
+			[
+				"syntax ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"syntax js",
+				"Set Syntax: JSX"
+			],
+			[
+				"new fil",
+				"File: New File Relative to Project Root"
+			],
+			[
+				"folde",
+				"Project: Add Folder"
+			],
+			[
+				"new fol",
+				"File: New Folder Relative to Project Root"
+			],
+			[
+				"syn",
+				"Set Syntax: HTML"
+			],
+			[
+				"new  file",
+				"File: New File Relative to Project Root"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"file view",
+				"File: New View into File"
+			],
+			[
+				"de",
+				"File: Delete"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"file mo",
+				"File: Move"
+			],
+			[
+				"syntaxjs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"syntax  js",
+				"Set Syntax: JSX"
+			],
+			[
+				"d",
+				"File: Delete"
+			],
+			[
+				"move",
+				"File: Move"
+			],
+			[
+				"filenew",
+				"File: New File Relative to Project Root"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"file move",
+				"File: Move"
+			],
+			[
+				"fnew fil",
+				"File: New File Relative to Current View"
+			],
+			[
+				"bab",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"module",
+				"Snippet: module.exports"
+			],
+			[
+				"reac",
+				"Set Syntax: React Templates"
+			],
+			[
+				"auto",
+				"Autoprefix CSS"
+			],
+			[
+				"open",
+				"File: Open In Browser - Testing Server"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"fet",
+				"Fetch: File"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"aut",
+				"Autoprefix CSS"
+			],
+			[
+				"prefi",
+				"Autoprefix CSS"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"prefix",
+				"Autoprefix CSS"
+			],
+			[
+				"ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"synt ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"synt j",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"snip",
+				"Snippet: html"
+			],
+			[
+				"stack",
+				"Stackoverflow: Search Selection"
+			],
+			[
+				"bro",
+				"Preferences: Browse Packages"
+			],
+			[
+				"fe",
+				"Fetch: Package"
+			],
+			[
+				"close",
+				"Project: Close"
+			],
+			[
+				"proj",
+				"Project: Close"
+			],
+			[
+				"Snippet: ",
+				"Snippet: addEventListener"
+			],
+			[
+				"map",
+				"Snippet: .map()"
+			],
+			[
+				"brow",
+				"View In Browser"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"vie",
+				"View In Browser"
+			],
+			[
+				"jquery sr",
+				"Snippet: jQuery.getScript"
+			],
+			[
+				"pref",
+				"Preferences: Settings"
+			],
+			[
+				"side",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"sni on",
+				"Snippet: .on()"
+			],
+			[
+				"sni get",
+				"Snippet: Get Elements"
+			],
+			[
+				"sni",
+				"Snippet: Anonymous Function"
+			],
+			[
+				"sni  jquery.get",
+				"Snippet: jQuery.get"
+			],
+			[
+				"sni aj",
+				"Snippet: $.ajax()"
+			],
+			[
+				"sni map",
+				"Snippet: .ajaxComplete()"
+			],
+			[
+				"Snippet: map",
+				"Snippet: .map()"
+			],
+			[
+				"toggle",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"syntaja",
+				"Set Syntax: JavaScript"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 688.0,
+		"history":
+		[
+			"platform.system()",
+			"empty",
+			"2",
+			"clear",
+			"$('span').css('color')",
+			"n",
+			"$('span').css('color')",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib2,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation') ",
+			"clear",
+			"import urllib2,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')",
+			"import urllib2,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation') ",
+			"delete",
+			"empty",
+			"clear",
+			"cls",
+			"c",
+			"quit",
+			"cls",
+			"clear",
+			"window.me = new person()",
+			"window.me = new person();",
+			"person.setName('Jason')",
+			"let me = new person()"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/devj/Desktop/ReactTimer",
+		"/home/devj/Desktop/ReactTimer/app",
+		"/home/devj/Desktop/ReactTimer/app/component",
+		"/home/devj/Desktop/ReactTimer/app/styles",
+		"/home/devj/Desktop/ReactTimer/public"
+	],
+	"file_history":
+	[
+		"/home/devj/.config/sublime-text-3/Packages/User/JavaScript/require.sublime-snippet",
+		"/home/devj/Desktop/ReactTimer/app/app.jsx",
+		"/home/devj/Desktop/ReactTimer/webpack.config.js",
+		"/home/devj/.config/sublime-text-3/Packages/User/JavaScript/pathResolve.sublime-snippet",
+		"/home/devj/.config/sublime-text-3/Packages/User/JavaScript/reactCreateClass.sublime-snippet",
+		"/home/devj/Desktop/Boilerplate2/webpack.config.js",
+		"/home/devj/Desktop/Boilerplate2/.gitignore",
+		"/home/devj/Desktop/Boilerplate2/app/styles/app.scss",
+		"/home/devj/Desktop/Boilerplate2/app/app.jsx",
+		"/home/devj/Desktop/Boilerplate2/package.json",
+		"/home/devj/Desktop/Boilerplate2/app/component/Main.jsx",
+		"/home/devj/Desktop/Boilerplate2/public/index.html",
+		"/home/devj/Desktop/Boilerplate2/readme.md",
+		"/home/devj/Desktop/ReactWeather/app/app.jsx",
+		"/home/devj/Desktop/ReactWeather/app/component/ErrorModal.jsx",
+		"/home/devj/Desktop/ReactWeather/app/component/WeatherMessage.jsx",
+		"/home/devj/Desktop/ReactWeather/app/component/Nav.jsx",
+		"/home/devj/Desktop/ReactWeather/app/component/Weather.jsx",
+		"/home/devj/Desktop/ReactWeather/app/styles/app.scss",
+		"/home/devj/Desktop/ReactWeather/app/component/WeatherForm.jsx",
+		"/home/devj/Desktop/ReactWeather/app/component/About.jsx",
+		"/home/devj/Desktop/ReactWeather/app/component/Examples.jsx",
+		"/home/devj/Desktop/ReactWeather/webpack.config.js",
+		"/home/devj/Desktop/ReactWeather/app/styles/app.css",
+		"/home/devj/Desktop/ReactWeather/app/api/OpenWeatherMap.jsx",
+		"/home/devj/Desktop/ReactWeather/public/bundle.js",
+		"/home/devj/Desktop/ReactWeather/test",
+		"/home/devj/Desktop/ReactWeather/app/component/Main.jsx",
+		"/home/devj/Desktop/ReactWeather/.gitignore",
+		"/home/devj/Desktop/ReactWeather/package.json",
+		"/home/devj/Desktop/ReactWeather/server.js",
+		"/home/devj/Desktop/ReactWeather/readme.md",
+		"/home/devj/Desktop/ReactWeather/promiseTry.js",
+		"/home/devj/Desktop/ReactWeather/arrow.js",
+		"/home/devj/Desktop/Boilerplate/app/component/Test.jsx",
+		"/home/devj/Desktop/Boilerplate/app/app.jsx",
+		"/home/devj/Desktop/Boilerplate/package.json",
+		"/home/devj/Desktop/Boilerplate/webpack.config.js",
+		"/home/devj/Desktop/Boilerplate/public/bundle.js",
+		"/home/devj/Desktop/HelloReact/package.json",
+		"/home/devj/Desktop/HelloReact/public/component/GreeterForm.jsx",
+		"/home/devj/Desktop/HelloReact/public/component/GreeterMessage.jsx",
+		"/home/devj/Desktop/HelloReact/public/component/Greeter.jsx",
+		"/home/devj/Desktop/HelloReact/webpack.config.js",
+		"/home/devj/Desktop/HelloReact/public/app.jsx",
+		"/home/devj/Desktop/HelloReact/public/index.html",
+		"/home/devj/Desktop/HelloReact/server.js",
+		"/home/devj/Desktop/HelloReact/public/bundle.js",
+		"/home/devj/Desktop/TestReact/public/app.jsx",
+		"/home/devj/Desktop/TestReact/public/index.html",
+		"/home/devj/Desktop/TestReact/server.js",
+		"/home/devj/Desktop/TestReact/package.json",
+		"/home/devj/.config/sublime-text-3/Packages/User/html/script.sublime-snippet",
+		"/home/devj/Desktop/TestReact/index.js",
+		"/home/devj/Desktop/ReactWeather/app/components/WeatherMessage.jsx",
+		"/home/devj/Desktop/ReactWeather/app/components/Examples.jsx",
+		"/home/devj/Desktop/ReactWeather/app/components/About.jsx",
+		"/home/devj/Desktop/ReactWeather/app/components/Weather.jsx",
+		"/home/devj/Desktop/ReactWeather/app/api/openWeatherMap.jsx",
+		"/home/devj/Desktop/ReactWeather/app/components/Nav.jsx",
+		"/home/devj/Desktop/ReactWeather/app/components/Main.jsx",
+		"/home/devj/Desktop/ReactWeather/arrowFunction.js",
+		"/home/devj/Desktop/ReactWeather/app/components/WeatherForm.jsx",
+		"/home/devj/Desktop/HelloReact/public/components/Greeter.jsx",
+		"/home/devj/Desktop/ReactWeather/examplePromise.js",
+		"/home/devj/Desktop/HelloReact/public/components/GreeterForm.jsx",
+		"/home/devj/Desktop/HelloReact/public/components/GreeterMessage.jsx",
+		"/home/devj/Desktop/ReactWeather/public/index.html",
+		"/home/devj/.config/sublime-text-3/Packages/Babel/Babel.sublime-settings",
+		"/home/devj/.config/sublime-text-3/Packages/User/Babel.sublime-settings",
+		"/home/devj/Desktop/HelloReact/GreeterMessage",
+		"/home/devj/Desktop/HelloReact/GreeterMessage.jsx",
+		"/home/devj/Desktop/HelloReact/node_modules/react/react.js",
+		"/home/devj/.config/sublime-text-3/Packages/Autoprefixer/index.html",
+		"/home/devj/.config/sublime-text-3/Packages/User/libraries/cloud-flare.sublime-snippet",
+		"/home/devj/.config/sublime-text-3/Packages/Autoprefixer/test.css",
+		"/home/devj/.config/sublime-text-3/Packages/User/JavaScript/eventlistenerfunction.sublime-snippet",
+		"/home/devj/Desktop/test.css",
+		"/home/devj/.config/sublime-text-3/Packages/Autoprefixer/node_bridge.py",
+		"/home/devj/Downloads/node-v6.9.4-linux-x64/README.md",
+		"/home/devj/Desktop/reactApp/index.html",
+		"/home/devj/Desktop/reactApp/style.css",
+		"/home/devj/.config/sublime-text-3/Packages/Autoprefixer/autoprefixer.js",
+		"/home/devj/.config/sublime-text-3/Packages/Autoprefixer/Autoprefixer.py",
+		"/home/devj/.config/sublime-text-3/Packages/User/Autoprefixer.sublime-settings",
+		"/home/devj/.config/sublime-text-3/Packages/Autoprefixer/Autoprefixer.sublime-settings",
+		"/home/devj/.config/sublime-text-3/Packages/Autoprefixer/package.json",
+		"/home/devj/.config/sublime-text-3/Packages/Autoprefixer/Autoprefixer.sublime-commands",
+		"/home/devj/Desktop/test.js",
+		"/home/devj/.config/sublime-text-3/Packages/User/javascript/addEventListener.sublime-snippet",
+		"/home/devj/Desktop/reactApp/main.js",
+		"/home/devj/Desktop/HelloReact/public",
+		"/home/devj/Desktop/reactApp/App.jsx",
+		"/home/devj/testing/testWeb.html",
+		"/home/devj/testing/testWeb.css",
+		"/home/devj/.config/sublime-text-3/Packages/User/Fetch.sublime-settings",
+		"/home/devj/Documents/simon/simon.js",
+		"/home/devj/Documents/simon/simon.css",
+		"/home/devj/Documents/simon/simon.html",
+		"/home/devj/.config/sublime-text-3/Installed Packages/jQuery Snippets pack.sublime-package",
+		"/home/devj/Desktop/simon.js",
+		"/home/devj/Desktop/simon.css",
+		"/home/devj/Desktop/simon.html",
+		"/home/devj/Desktop/test.html",
+		"/home/devj/Desktop/test.jsx",
+		"/home/devj/Desktop/text.js",
+		"/home/devj/Desktop/test.sublime-project",
+		"/home/devj/Desktop/test.coffee"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"-color",
+			"#777",
+			"loader",
+			"\"",
+			"1",
+			"3",
+			"res",
+			"bold",
+			"IndexLink",
+			"Link",
+			"About",
+			"Weather",
+			"React",
+			"Weather",
+			"Test",
+			"() => ",
+			"express",
+			"const",
+			"app",
+			"jquery",
+			"jQuery",
+			"\t\t\t<",
+			"message",
+			"Form",
+			"></",
+			"li",
+			"html",
+			"<html",
+			"html",
+			"lang",
+			"en",
+			"head",
+			"html",
+			"DOCTYPE",
+			"<!",
+			"<",
+			"<!",
+			"map",
+			"return;",
+			"today"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Message",
+			"return 0;"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/component/Main.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 150,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								110,
+								110
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/component/Nav.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 792,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								172,
+								172
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/styles/app.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 115,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11,
+								11
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "ReactTimer.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Desktop/ReactWeather/ReactWeather.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 244.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
