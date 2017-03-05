@@ -148,46 +148,19 @@
 	"buffers":
 	[
 		{
-			"file": "app/component/Main.jsx",
+			"file": "app/app.jsx",
 			"settings":
 			{
-				"buffer_size": 150,
+				"buffer_size": 513,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/component/Nav.jsx",
+			"file": "app/styles/app.scss",
 			"settings":
 			{
-				"buffer_size": 818,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "karma.conf.js",
-			"settings":
-			{
-				"buffer_size": 579,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "package.json",
-			"settings":
-			{
-				"buffer_size": 1061,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/tests/app.test.jsx",
-			"settings":
-			{
-				"buffer_size": 127,
+				"buffer_size": 19,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -197,6 +170,16 @@
 			"settings":
 			{
 				"buffer_size": 73,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "webpack.config.js",
+			"settings":
+			{
+				"buffer_size": 905,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		}
@@ -208,74 +191,10 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 152.0,
-		"last_filter": "new file",
+		"height": 392.0,
+		"last_filter": "clos",
 		"selected_items":
 		[
-			[
-				"new file",
-				"File: New File Relative to Project Root"
-			],
-			[
-				"new folder",
-				"File: New Folder Relative to Project Root"
-			],
-			[
-				"new",
-				"File: New File Relative to Project Root"
-			],
-			[
-				"syntajav",
-				"Set Syntax: JavaScript"
-			],
-			[
-				"syntax s",
-				"Set Syntax: SCSS"
-			],
-			[
-				"install",
-				"Package Control: Install Package"
-			],
-			[
-				"syntax css",
-				"Set Syntax: CSS"
-			],
-			[
-				"new ",
-				"File: New File Relative to Current View"
-			],
-			[
-				" install",
-				"Package Control: Install Package"
-			],
-			[
-				"package",
-				"Package Control: Remove Package"
-			],
-			[
-				"babel",
-				"Set Syntax: JavaScript (Babel)"
-			],
-			[
-				"jsx",
-				"Set Syntax: JSX"
-			],
-			[
-				"pac",
-				"Package Control: List Packages"
-			],
-			[
-				"synt",
-				"Set Syntax: JSX"
-			],
-			[
-				"ren",
-				"File: Rename"
-			],
-			[
-				"pro",
-				"Project: Add Folder"
-			],
 			[
 				"clos",
 				"Project: Close"
@@ -309,8 +228,16 @@
 				"Set Syntax: JavaScript"
 			],
 			[
+				"new",
+				"File: New File Relative to Project Root"
+			],
+			[
 				"html",
 				"Set Syntax: HTML"
+			],
+			[
+				"ren",
+				"File: Rename"
 			],
 			[
 				"new  ",
@@ -335,6 +262,10 @@
 			[
 				"syntax ht",
 				"Set Syntax: HTML"
+			],
+			[
+				"new file",
+				"File: New File Relative to Current View"
 			],
 			[
 				"folder",
@@ -365,6 +296,10 @@
 				"Project: Add Folder"
 			],
 			[
+				"babel",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
 				"new fol",
 				"File: New Folder Relative to Project Root"
 			],
@@ -375,6 +310,10 @@
 			[
 				"new  file",
 				"File: New File Relative to Project Root"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
 			],
 			[
 				"file view",
@@ -425,6 +364,10 @@
 				"File: Move"
 			],
 			[
+				"jsx",
+				"Set Syntax: JSX"
+			],
+			[
 				"fnew fil",
 				"File: New File Relative to Current View"
 			],
@@ -443,6 +386,10 @@
 			[
 				"auto",
 				"Autoprefix CSS"
+			],
+			[
+				"pro",
+				"Project: Save As"
 			],
 			[
 				"open",
@@ -471,6 +418,10 @@
 			[
 				"packa",
 				"Package Control: Remove Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
 			],
 			[
 				"prefix",
@@ -541,6 +492,10 @@
 				"Preferences: Settings"
 			],
 			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
 				"side",
 				"View: Toggle Open Files in Side Bar"
 			],
@@ -585,7 +540,7 @@
 				"Set Syntax: JavaScript"
 			]
 		],
-		"width": 521.0
+		"width": 485.0
 	},
 	"console":
 	{
@@ -629,31 +584,20 @@
 	},
 	"expanded_folders":
 	[
-		"/home/devj/Desktop/ReactTimer",
-		"/home/devj/Desktop/ReactTimer/app",
-		"/home/devj/Desktop/ReactTimer/app/component",
-		"/home/devj/Desktop/ReactTimer/app/styles",
-		"/home/devj/Desktop/ReactTimer/app/styles/components",
-		"/home/devj/Desktop/ReactTimer/app/tests",
-		"/home/devj/Desktop/ReactTimer/public"
+		"/home/devj/Desktop/Boilerplate2",
+		"/home/devj/Desktop/Boilerplate2/app",
+		"/home/devj/Desktop/Boilerplate2/app/api",
+		"/home/devj/Desktop/Boilerplate2/app/component",
+		"/home/devj/Desktop/Boilerplate2/app/styles"
 	],
 	"file_history":
 	[
-		"/home/devj/Desktop/ReactTimer/app/styles/app.scss",
-		"/home/devj/Desktop/ReactTimer/app/styles/components/_nav.scss",
-		"/home/devj/Desktop/ReactTimer/app/styles/base/_variables.scss",
-		"/home/devj/.config/sublime-text-3/Packages/User/JavaScript/require.sublime-snippet",
-		"/home/devj/Desktop/ReactTimer/app/app.jsx",
-		"/home/devj/Desktop/ReactTimer/webpack.config.js",
-		"/home/devj/.config/sublime-text-3/Packages/User/JavaScript/pathResolve.sublime-snippet",
-		"/home/devj/.config/sublime-text-3/Packages/User/JavaScript/reactCreateClass.sublime-snippet",
-		"/home/devj/Desktop/Boilerplate2/webpack.config.js",
-		"/home/devj/Desktop/Boilerplate2/.gitignore",
-		"/home/devj/Desktop/Boilerplate2/app/styles/app.scss",
-		"/home/devj/Desktop/Boilerplate2/app/app.jsx",
 		"/home/devj/Desktop/Boilerplate2/package.json",
+		"/home/devj/Desktop/Boilerplate2/.gitignore",
 		"/home/devj/Desktop/Boilerplate2/app/component/Main.jsx",
+		"/home/devj/Desktop/Boilerplate2/app/styles/app.scss",
 		"/home/devj/Desktop/Boilerplate2/public/index.html",
+		"/home/devj/Desktop/Boilerplate2/webpack.config.js",
 		"/home/devj/Desktop/Boilerplate2/readme.md",
 		"/home/devj/Desktop/ReactWeather/app/app.jsx",
 		"/home/devj/Desktop/ReactWeather/app/component/ErrorModal.jsx",
@@ -767,8 +711,6 @@
 		"case_sensitive": true,
 		"find_history":
 		[
-			"-color",
-			"#777",
 			"loader",
 			"\"",
 			"1",
@@ -826,89 +768,29 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/component/Main.jsx",
+					"file": "app/app.jsx",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 150,
+						"buffer_size": 513,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								110,
-								110
+								513,
+								513
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/component/Nav.jsx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 818,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								740,
-								740
-							]
-						],
-						"settings":
-						{
-							"open_with_edit": true,
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "karma.conf.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 579,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								120,
-								120
-							]
-						],
-						"settings":
-						{
-							"open_with_edit": true,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -918,56 +800,25 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "package.json",
+					"buffer": 1,
+					"file": "app/styles/app.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1061,
+						"buffer_size": 19,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								139,
-								139
+								17,
+								17
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "app/tests/app.test.jsx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 127,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								34,
-								34
-							]
-						],
-						"settings":
-						{
-							"open_with_edit": true,
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -977,9 +828,9 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 2,
 					"file": ".gitignore",
-					"semi_transient": true,
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 73,
@@ -1002,6 +853,35 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "webpack.config.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 905,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								579,
+								579
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 44.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -1043,7 +923,7 @@
 		"height": 0.0
 	},
 	"pinned_build_system": "",
-	"project": "ReactTimer.sublime-project",
+	"project": "boilerplate2.sublime-project",
 	"replace":
 	{
 		"height": 50.0
