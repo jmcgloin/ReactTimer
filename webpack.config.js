@@ -8,7 +8,7 @@ module.exports = {
 		"./app/app.jsx"
 	],
 	externals: {
-		jquery: 'jQuery'
+		jQuery: 'jQuery'
 
 	},
 	plugins: [
@@ -26,7 +26,11 @@ module.exports = {
 			//AliasName: path.resolve(__dirname, './alias/path'),
 			Main: 				path.resolve(__dirname, './app/component/Main'),
 			Nav: 				path.resolve(__dirname, './app/component/Nav'),
-			applicationStyles: 	path.resolve(__dirname, './app/styles/app.scss')
+			Timer: 				path.resolve(__dirname, './app/component/Timer'),
+			Stopwatch: 			path.resolve(__dirname, './app/component/Stopwatch'),
+			Clock: 				path.resolve(__dirname, './app/component/Clock'),
+			applicationStyles: 	path.resolve(__dirname, './app/styles/app.scss'),
+			jQuery: 			'jquery'
 		},
 		extensions: ["*",".js",".jsx"]
 	},
