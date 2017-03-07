@@ -9,12 +9,11 @@ module.exports = {
 	],
 	externals: {
 		jQuery: 'jQuery'
-
 	},
 	plugins: [
 		new webpack.ProvidePlugin({
-			'$': 'jquery',
-			'jQuery': 'jquery'
+			$: 'jquery',
+			jQuery: 'jquery'
 		})
 	],
 	output: {
@@ -30,7 +29,7 @@ module.exports = {
 			Stopwatch: 			path.resolve(__dirname, './app/component/Stopwatch'),
 			Clock: 				path.resolve(__dirname, './app/component/Clock'),
 			applicationStyles: 	path.resolve(__dirname, './app/styles/app.scss'),
-			jQuery: 			'jquery'
+			jQuery: 			'jquery/src/jquery.js'
 		},
 		extensions: ["*",".js",".jsx"]
 	},

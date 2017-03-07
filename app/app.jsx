@@ -4,6 +4,7 @@ const {Route, Router, IndexRoute, hashHistory} = require('react-router');
 const Main = require('Main');
 const Timer = require('Timer');
 const Stopwatch = require('Stopwatch');
+const $ = require('jQuery');
 
 //load foundation
 require('style-loader!css-loader!foundation-sites/dist/css/foundation.min.css');
