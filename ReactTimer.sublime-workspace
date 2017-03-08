@@ -157,10 +157,28 @@
 			}
 		},
 		{
-			"file": "app/app.jsx",
+			"file": "app/component/TimerForm.jsx",
 			"settings":
 			{
-				"buffer_size": 680,
+				"buffer_size": 732,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/tests/component/Clock.test.jsx",
+			"settings":
+			{
+				"buffer_size": 1098,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/tests/component/TimerForm.test.jsx",
+			"settings":
+			{
+				"buffer_size": 332,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -169,7 +187,34 @@
 			"file": "app/component/Timer.jsx",
 			"settings":
 			{
-				"buffer_size": 219,
+				"buffer_size": 487,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "webpack.config.js",
+			"settings":
+			{
+				"buffer_size": 1234,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "karma.conf.js",
+			"settings":
+			{
+				"buffer_size": 579,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/tests/app.test.jsx",
+			"settings":
+			{
+				"buffer_size": 160,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -182,10 +227,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 152.0,
-		"last_filter": "new file",
+		"height": 192.0,
+		"last_filter": "rename",
 		"selected_items":
 		[
+			[
+				"rename",
+				"File: Rename"
+			],
 			[
 				"new file",
 				"File: New File Relative to Current View"
@@ -604,29 +653,31 @@
 	"expanded_folders":
 	[
 		"/home/devj/Desktop/ReactTimer",
+		"/home/devj/Desktop/ReactTimer/app",
 		"/home/devj/Desktop/ReactTimer/app/styles",
+		"/home/devj/Desktop/ReactTimer/app/styles/base",
+		"/home/devj/Desktop/ReactTimer/app/styles/components",
 		"/home/devj/Desktop/ReactTimer/app/tests",
 		"/home/devj/Desktop/ReactTimer/app/tests/component",
-		"/home/devj/Desktop/ReactTimer/node_modules",
-		"/home/devj/Desktop/ReactTimer/node_modules/foundation-sites",
 		"/home/devj/Desktop/ReactTimer/public"
 	],
 	"file_history":
 	[
-		"/home/devj/Desktop/ReactTimer/app/tests/component/Clock.test.jsx",
+		"/home/devj/Desktop/ReactTimer/app/app.jsx",
+		"/home/devj/Desktop/ReactTimer/app/styles/components/_clock.scss",
 		"/home/devj/Desktop/ReactTimer/webpack.config.js",
+		"/home/devj/Desktop/ReactTimer/app/styles/base/_variables.scss",
+		"/home/devj/Desktop/ReactTimer/app/styles/app.scss",
+		"/home/devj/Desktop/ReactTimer/app/tests/component/Clock.test.jsx",
 		"/home/devj/Desktop/ReactTimer/package.json",
 		"/home/devj/Desktop/ReactTimer/app/component/Nav.jsx",
 		"/home/devj/Desktop/ReactTimer/app/styles/components/_nav.scss",
-		"/home/devj/Desktop/ReactTimer/app/app.jsx",
 		"/home/devj/Desktop/ReactTimer/app/component/Timer.jsx",
 		"/home/devj/Desktop/ReactTimer/app/component/Stopwatch.jsx",
 		"/home/devj/Desktop/ReactTimer/app/component/Main.jsx",
 		"/home/devj/Desktop/ReactTimer/karma.conf.js",
 		"/home/devj/Desktop/ReactTimer/app/tests/app.test.jsx",
 		"/home/devj/Desktop/ReactTimer/.gitignore",
-		"/home/devj/Desktop/ReactTimer/app/styles/app.scss",
-		"/home/devj/Desktop/ReactTimer/app/styles/base/_variables.scss",
 		"/home/devj/.config/sublime-text-3/Packages/User/JavaScript/require.sublime-snippet",
 		"/home/devj/.config/sublime-text-3/Packages/User/JavaScript/pathResolve.sublime-snippet",
 		"/home/devj/.config/sublime-text-3/Packages/User/JavaScript/reactCreateClass.sublime-snippet",
@@ -811,7 +862,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -842,29 +893,90 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "app/app.jsx",
+					"file": "app/component/TimerForm.jsx",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 680,
+						"buffer_size": 732,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								347,
-								347
+								322,
+								322
 							]
 						],
 						"settings":
 						{
 							"git_gutter_enabled": true,
+							"open_with_edit": true,
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/tests/component/Clock.test.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1098,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								109,
+								109
+							]
+						],
+						"settings":
+						{
+							"git_gutter_enabled": true,
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/tests/component/TimerForm.test.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 332,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								328,
+								328
+							]
+						],
+						"settings":
+						{
+							"git_gutter_enabled": true,
+							"open_with_edit": true,
 							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
 						},
 						"translation.x": 0.0,
@@ -875,20 +987,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 4,
 					"file": "app/component/Timer.jsx",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 219,
+						"buffer_size": 487,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								168,
-								168
+								417,
+								417
 							]
 						],
 						"settings":
@@ -900,7 +1012,96 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "webpack.config.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1234,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								959,
+								959
+							]
+						],
+						"settings":
+						{
+							"git_gutter_enabled": true,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 57.0,
+						"zoom_level": 1.0
+					},
 					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "karma.conf.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 579,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								53,
+								53
+							]
+						],
+						"settings":
+						{
+							"git_gutter_enabled": true,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/tests/app.test.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 160,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								53,
+								53
+							]
+						],
+						"settings":
+						{
+							"git_gutter_enabled": true,
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
