@@ -8,6 +8,9 @@ const TimerForm = React.createClass({
 		if(seconds.match(/^[0-9]+$/)) {
 			this.refs.seconds.value = "";
 			this.props.onSetTimer(parseInt(seconds,10));
+		} else if(seconds.match(/^[0-9]+:[0-9]+$/)) {
+			this.refs.seconds.value = "";
+			this.props.onSetTimer(parseInt(seconds.split(':')[0] * 60,10) + parseInt(seconds.split(':')[1],10));
 		} else {
 			this.refs.seconds.value = ""
 		}

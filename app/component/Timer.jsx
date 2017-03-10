@@ -5,13 +5,31 @@ const TimerForm = require('TimerForm');
 const Timer = React.createClass({
 	getInitialState: function () {
 		return {
-			count: 0
+			count: 0,
+			timerStatus: 'stopped'
 		};
 	},
 	handleSetTimer: function(seconds) {
 		this.setState ({
-			count: seconds
+			count: seconds,
+			timerStatus: 'started'
 		});
+	},
+	componentDidUpdate: function(prevProps, prevState) {
+		if(this.state.timerStatus !== prevState.timerStatus) {
+			switch(this.state.timerStatus) {
+				case 'started':
+					this.startTimer();
+					break;
+			}
+		}
+	},
+	startTimer: function() {
+		this.timer = setInterval(() => {
+			this.state.count > 0 ?
+				this.setState({count: this.state.count - 1}) :
+				clearInterval(this.timer);
+		}, 1000);
 	},
 	render: function() {
 		let {count} = this.state;
