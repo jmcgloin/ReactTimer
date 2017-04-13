@@ -29,6 +29,7 @@ module.exports = {
 			Stopwatch: 			path.resolve(__dirname, './app/component/Stopwatch'),
 			Clock: 				path.resolve(__dirname, './app/component/Clock'),
 			TimerForm: 			path.resolve(__dirname, './app/component/TimerForm'),
+			Controls: 			path.resolve(__dirname, './app/component/Controls'),
 			applicationStyles: 	path.resolve(__dirname, './app/styles/app.scss')
 			
 		},

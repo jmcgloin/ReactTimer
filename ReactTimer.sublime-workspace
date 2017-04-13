@@ -148,55 +148,19 @@
 	"buffers":
 	[
 		{
-			"file": "app/component/Clock.jsx",
+			"file": "app/component/Controls.jsx",
 			"settings":
 			{
-				"buffer_size": 753,
+				"buffer_size": 655,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/component/TimerForm.jsx",
+			"file": "app/tests/component/Controls.test.jsx",
 			"settings":
 			{
-				"buffer_size": 917,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": ".gitignore",
-			"settings":
-			{
-				"buffer_size": 69,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/tests/component/Clock.test.jsx",
-			"settings":
-			{
-				"buffer_size": 1098,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/tests/component/Timer.test.jsx",
-			"settings":
-			{
-				"buffer_size": 870,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/tests/component/TimerForm.test.jsx",
-			"settings":
-			{
-				"buffer_size": 1064,
+				"buffer_size": 649,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -205,16 +169,7 @@
 			"file": "app/component/Timer.jsx",
 			"settings":
 			{
-				"buffer_size": 942,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "webpack.config.js",
-			"settings":
-			{
-				"buffer_size": 1234,
+				"buffer_size": 980,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -227,10 +182,38 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 152.0,
-		"last_filter": "new file",
+		"height": 52.0,
+		"last_filter": "syntax bab",
 		"selected_items":
 		[
+			[
+				"syntax bab",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"bab",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"syntaxj",
+				"Set Syntax: JSX"
+			],
+			[
+				"js",
+				"Set Syntax: JSX"
+			],
+			[
+				"jsx",
+				"Set Syntax: JSX"
+			],
+			[
+				"synt",
+				"Set Syntax: JSX"
+			],
+			[
+				"ren",
+				"File: Rename"
+			],
 			[
 				"new file",
 				"File: New File Relative to Current View"
@@ -245,10 +228,6 @@
 			],
 			[
 				"renam",
-				"File: Rename"
-			],
-			[
-				"ren",
 				"File: Rename"
 			],
 			[
@@ -288,16 +267,8 @@
 				"Set Syntax: JavaScript (Babel)"
 			],
 			[
-				"jsx",
-				"Set Syntax: JSX"
-			],
-			[
 				"pac",
 				"Package Control: List Packages"
-			],
-			[
-				"synt",
-				"Set Syntax: JSX"
 			],
 			[
 				"pro",
@@ -346,10 +317,6 @@
 			[
 				"del",
 				"File: Delete"
-			],
-			[
-				"syntax bab",
-				"Set Syntax: JavaScript (Babel)"
 			],
 			[
 				"syntax",
@@ -450,10 +417,6 @@
 			[
 				"fnew fil",
 				"File: New File Relative to Current View"
-			],
-			[
-				"bab",
-				"Set Syntax: JavaScript (Babel)"
 			],
 			[
 				"module",
@@ -654,28 +617,29 @@
 	[
 		"/home/devj/Desktop/ReactTimer",
 		"/home/devj/Desktop/ReactTimer/app",
-		"/home/devj/Desktop/ReactTimer/app/styles/base",
-		"/home/devj/Desktop/ReactTimer/app/styles/components",
-		"/home/devj/Desktop/ReactTimer/app/tests",
-		"/home/devj/Desktop/ReactTimer/app/tests/component"
+		"/home/devj/Desktop/ReactTimer/app/component"
 	],
 	"file_history":
 	[
+		"/home/devj/Desktop/ReactTimer/app/component/Clock.jsx",
+		"/home/devj/Desktop/ReactTimer/app/tests/component/Timer.test.jsx",
+		"/home/devj/Desktop/ReactTimer/app/tests/component/TimerForm.test.jsx",
+		"/home/devj/Desktop/ReactTimer/webpack.config.js",
+		"/home/devj/Desktop/ReactTimer/app/tests/component/Clock.test.jsx",
+		"/home/devj/Desktop/ReactTimer/app/component/TimerForm.jsx",
+		"/home/devj/Desktop/ReactTimer/.gitignore",
 		"/home/devj/Desktop/ReactTimer/app/tests/app.test.jsx",
 		"/home/devj/Desktop/ReactTimer/karma.conf.js",
 		"/home/devj/Desktop/ReactTimer/app/app.jsx",
 		"/home/devj/Desktop/ReactTimer/app/styles/components/_clock.scss",
-		"/home/devj/Desktop/ReactTimer/webpack.config.js",
 		"/home/devj/Desktop/ReactTimer/app/styles/base/_variables.scss",
 		"/home/devj/Desktop/ReactTimer/app/styles/app.scss",
-		"/home/devj/Desktop/ReactTimer/app/tests/component/Clock.test.jsx",
 		"/home/devj/Desktop/ReactTimer/package.json",
 		"/home/devj/Desktop/ReactTimer/app/component/Nav.jsx",
 		"/home/devj/Desktop/ReactTimer/app/styles/components/_nav.scss",
 		"/home/devj/Desktop/ReactTimer/app/component/Timer.jsx",
 		"/home/devj/Desktop/ReactTimer/app/component/Stopwatch.jsx",
 		"/home/devj/Desktop/ReactTimer/app/component/Main.jsx",
-		"/home/devj/Desktop/ReactTimer/.gitignore",
 		"/home/devj/.config/sublime-text-3/Packages/User/JavaScript/require.sublime-snippet",
 		"/home/devj/.config/sublime-text-3/Packages/User/JavaScript/pathResolve.sublime-snippet",
 		"/home/devj/.config/sublime-text-3/Packages/User/JavaScript/reactCreateClass.sublime-snippet",
@@ -861,144 +825,24 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/component/Clock.jsx",
+					"file": "app/component/Controls.jsx",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 753,
+						"buffer_size": 655,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								219,
-								219
-							]
-						],
-						"settings":
-						{
-							"git_gutter_enabled": true,
-							"open_with_edit": true,
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/component/TimerForm.jsx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 917,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								327,
-								327
-							]
-						],
-						"settings":
-						{
-							"git_gutter_enabled": true,
-							"open_with_edit": true,
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": ".gitignore",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 69,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								41,
-								41
-							]
-						],
-						"settings":
-						{
-							"git_gutter_enabled": true,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "app/tests/component/Clock.test.jsx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1098,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								222,
-								222
-							]
-						],
-						"settings":
-						{
-							"git_gutter_enabled": true,
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "app/tests/component/Timer.test.jsx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 870,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								697,
-								697
+								533,
+								533
 							]
 						],
 						"settings":
@@ -1015,20 +859,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "app/tests/component/TimerForm.test.jsx",
+					"buffer": 1,
+					"file": "app/tests/component/Controls.test.jsx",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1064,
+						"buffer_size": 649,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1038,
-								1038
+								634,
+								634
 							]
 						],
 						"settings":
@@ -1041,24 +885,28 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 2,
 					"file": "app/component/Timer.jsx",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 942,
+						"buffer_size": 980,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								717,
-								717
+								118,
+								118
+							],
+							[
+								138,
+								138
 							]
 						],
 						"settings":
@@ -1067,37 +915,7 @@
 							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 57.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "webpack.config.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1234,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								959,
-								959
-							]
-						],
-						"settings":
-						{
-							"git_gutter_enabled": true,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 57.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
