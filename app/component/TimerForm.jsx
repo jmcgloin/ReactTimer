@@ -21,7 +21,7 @@ const TimerForm = React.createClass({
 				<div className='columns medium-4 medium-centered'>
 					<form ref='form' onSubmit={this.onSubmit} className='timer-form'>
 						<input type='text' ref='seconds' placeholder='Enter time in seconds'></input>
-						<button className='button expanded'>Start Timer</button>
+						<button className='button expanded'>Start The Timer</button>
 					</form>
 				</div>
 			</div>
