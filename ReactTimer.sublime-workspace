@@ -151,7 +151,7 @@
 			"file": "app/component/Controls.jsx",
 			"settings":
 			{
-				"buffer_size": 655,
+				"buffer_size": 923,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -160,7 +160,7 @@
 			"file": "app/tests/component/Controls.test.jsx",
 			"settings":
 			{
-				"buffer_size": 649,
+				"buffer_size": 928,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -169,7 +169,16 @@
 			"file": "app/component/Timer.jsx",
 			"settings":
 			{
-				"buffer_size": 980,
+				"buffer_size": 1426,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/component/TimerForm.jsx",
+			"settings":
+			{
+				"buffer_size": 921,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -617,7 +626,10 @@
 	[
 		"/home/devj/Desktop/ReactTimer",
 		"/home/devj/Desktop/ReactTimer/app",
-		"/home/devj/Desktop/ReactTimer/app/component"
+		"/home/devj/Desktop/ReactTimer/app/component",
+		"/home/devj/Desktop/ReactTimer/app/tests",
+		"/home/devj/Desktop/ReactTimer/app/tests/component",
+		"/home/devj/Desktop/ReactTimer/public"
 	],
 	"file_history":
 	[
@@ -825,7 +837,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -834,20 +846,21 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 655,
+						"buffer_size": 923,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								533,
-								533
+								275,
+								275
 							]
 						],
 						"settings":
 						{
 							"git_gutter_enabled": true,
+							"git_gutter_is_enabled": true,
 							"open_with_edit": true,
 							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
 						},
@@ -864,20 +877,21 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 649,
+						"buffer_size": 928,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								634,
-								634
+								913,
+								913
 							]
 						],
 						"settings":
 						{
 							"git_gutter_enabled": true,
+							"git_gutter_is_enabled": true,
 							"open_with_edit": true,
 							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
 						},
@@ -885,7 +899,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -894,31 +908,58 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 980,
+						"buffer_size": 1426,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								118,
-								118
-							],
-							[
-								138,
-								138
+								1426,
+								1426
 							]
 						],
 						"settings":
 						{
 							"git_gutter_enabled": true,
+							"git_gutter_is_enabled": true,
 							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 440.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/component/TimerForm.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 921,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								831,
+								831
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]

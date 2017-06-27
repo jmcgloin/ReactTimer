@@ -1,23 +1,28 @@
 const React = require('react');
 
 const Controls = React.createClass({
-	propTypes: function() {
-		timerStatus: React.PropTypes.string.isRequired
+	propTypes: {
+		timerStatus: React.PropTypes.string.isRequired,
+		onStatusChange: React.PropTypes.func.isRequired
 	},
-
+	onStatusChange: function(newStatus) {
+		return () => {
+			this.props.onStatusChange(newStatus);
+		}
+	},
 	render: function() {
 		let {timerStatus} = this.props;
-		let renderStartStopButton = function() {
+		let renderStartStopButton = () => {
 			if(timerStatus === 'started') {
-				return (<button className='button secondary'>Pause</button>);
+				return (<button className='button secondary' onClick={this.onStatusChange('paused')}>Pause</button>);
 			} else if(timerStatus === 'paused') {
-				return (<button className='button primary'>Start</button>);
+				return (<button className='button primary' onClick={this.onStatusChange('started')}>Start</button>);
 			}
 		};
 		return (
 			<div className='controls'>
 				{renderStartStopButton()}
-				<button className='button alert hollow' ref='reset'>Reset</button>
+				<button className='button alert hollow' ref='reset' onClick={this.onStatusChange('stopped')}>Reset</button>
 			</div>
 		);
 	}
