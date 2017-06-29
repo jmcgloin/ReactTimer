@@ -25,6 +25,10 @@ const Timer = React.createClass({
 			}
 		}
 	},
+	componentWillUnmount: function() {
+		clearInterval(this.timer);
+		this.timer = undefined;
+	},
 	handleSetTimer: function(seconds) {
 		this.setState ({
 			count: seconds,
@@ -40,7 +44,8 @@ const Timer = React.createClass({
 		this.timer = setInterval( () => {
 			let newCount = this.state.count - 1;
 			this.setState({
-				count: newCount >= 0 ? newCount : 0
+				count: newCount >= 0 ? newCount : 0,
+				timerStatus: newCount === 0 ? 'stopped' : this.state.timerStatus
 			});
 		}, 1000);
 	},
