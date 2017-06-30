@@ -59,6 +59,7 @@ const Timer = React.createClass({
 
 		return (
 			<div>
+				<h1 className="page-title">Timer App</h1>
 				<Clock totalSeconds={count}/>
 				{renderControlArea()}
 			</div>
