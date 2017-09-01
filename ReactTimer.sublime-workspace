@@ -170,22 +170,19 @@
 			}
 		},
 		{
-			"contents": "const React = require('react');\nconst Clock = require('Clock');\nconst TimerForm = require('TimerForm');\nconst Controls = require('Controls');\n\nconst Timer = React.createClass({\n\tgetInitialState: function () {\n\t\treturn {\n\t\t\tcount: 0,\n\t\t\ttimerStatus: 'stopped'\n\t\t};\n\t},\n\tcomponentDidUpdate: function(prevProps, prevState) {\n\t\tif(this.state.timerStatus !== prevState.timerStatus) {\n\t\t\tswitch(this.state.timerStatus) {\n\t\t\t\tcase 'started':\n\t\t\t\t\tthis.startTimer();\n\t\t\t\t\tbreak;\n\t\t\t\tcase 'stopped':\n\t\t\t\t\tthis.setState({count: 0});\n\t\t\t\tcase 'paused':\n\t\t\t\t\tclearInterval(this.timer);\n\t\t\t\t\tthis.timer = undefined;\n\t\t\t\t\tbreak;\n\t\t\t}\n\t\t}\n\t},\n\tcomponentWillUnmount: function() {\n\t\tclearInterval(this.timer);\n\t\tthis.timer = undefined;\n\t},\n\thandleSetTimer: function(seconds) {\n\t\tthis.setState ({\n\t\t\tcount: seconds,\n\t\t\ttimerStatus: 'started'\n\t\t});\n\t},\n\thandleStatusChange: function(newStatus) {\n\t\tthis.setState ({\n\t\t\ttimerStatus: newStatus\n\t\t});\n\t},\n\tstartTimer: function () {\n\t\tthis.timer = setInterval( () => {\n\t\t\tlet newCount = this.state.count - 1;\n\t\t\tthis.setState({\n\t\t\t\tcount: newCount >= 0 ? newCount : 0,\n\t\t\t\ttimerStatus: newCount === 0 ? 'stopped' : this.state.timerStatus\n\t\t\t});\n\t\t}, 1000);\n\t},\n\trender: function() {\n\t\tlet {count, timerStatus} = this.state;\n\t\tlet renderControlArea = () => {\n\t\t\treturn timerStatus !== 'stopped' ? \n\t\t\t\t<Controls timerStatus={timerStatus} onStatusChange={this.handleStatusChange}/> : \n\t\t\t\t<TimerForm onSetTimer={this.handleSetTimer}/>\n\t\t};\n\n\t\treturn (\n\t\t\t<div>\n\t\t\t\t<Clock totalSeconds={count}/>\n\t\t\t\t{renderControlArea()}\n\t\t\t</div>\n\t\t);\n\t}\n});\n\nmodule.exports = Timer;",
 			"file": "app/component/Timer.jsx",
-			"file_size": 1591,
-			"file_write_time": 131431783701472808,
 			"settings":
 			{
-				"buffer_size": 1591,
+				"buffer_size": 1637,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/styles/app.scss",
+			"file": "app/styles/components/_page-title.scss",
 			"settings":
 			{
-				"buffer_size": 110,
+				"buffer_size": 53,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -207,10 +204,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 152.0,
-		"last_filter": "new file",
+		"height": 232.0,
+		"last_filter": "renam",
 		"selected_items":
 		[
+			[
+				"renam",
+				"File: Rename"
+			],
 			[
 				"new file",
 				"File: New File Relative to Project Root"
@@ -249,10 +250,6 @@
 			],
 			[
 				"rename",
-				"File: Rename"
-			],
-			[
-				"renam",
 				"File: Rename"
 			],
 			[
@@ -596,7 +593,7 @@
 				"Set Syntax: JavaScript"
 			]
 		],
-		"width": 521.0
+		"width": 485.0
 	},
 	"console":
 	{
@@ -651,9 +648,10 @@
 	],
 	"file_history":
 	[
+		"/home/devj/Desktop/ReactTimer/app/styles/app.scss",
+		"/home/devj/Desktop/ReactTimer/app/tests/component/Timer.test.jsx",
 		"/home/devj/Desktop/ReactTimer/app/styles/components/_controls.scss",
 		"/home/devj/Desktop/ReactTimer/app/component/Clock.jsx",
-		"/home/devj/Desktop/ReactTimer/app/tests/component/Timer.test.jsx",
 		"/home/devj/Desktop/ReactTimer/app/tests/component/TimerForm.test.jsx",
 		"/home/devj/Desktop/ReactTimer/webpack.config.js",
 		"/home/devj/Desktop/ReactTimer/app/tests/component/Clock.test.jsx",
@@ -664,7 +662,6 @@
 		"/home/devj/Desktop/ReactTimer/app/app.jsx",
 		"/home/devj/Desktop/ReactTimer/app/styles/components/_clock.scss",
 		"/home/devj/Desktop/ReactTimer/app/styles/base/_variables.scss",
-		"/home/devj/Desktop/ReactTimer/app/styles/app.scss",
 		"/home/devj/Desktop/ReactTimer/package.json",
 		"/home/devj/Desktop/ReactTimer/app/component/Nav.jsx",
 		"/home/devj/Desktop/ReactTimer/app/styles/components/_nav.scss",
@@ -856,7 +853,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -887,7 +884,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -918,7 +915,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -927,15 +924,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1591,
+						"buffer_size": 1637,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								722,
-								722
+								1489,
+								1489
 							]
 						],
 						"settings":
@@ -945,39 +942,40 @@
 							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 457.0,
+						"translation.y": 798.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "app/styles/app.scss",
+					"file": "app/styles/components/_page-title.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 110,
+						"buffer_size": 53,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								99,
-								99
+								51,
+								51
 							]
 						],
 						"settings":
 						{
 							"git_gutter_is_enabled": true,
+							"open_with_edit": true,
 							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
