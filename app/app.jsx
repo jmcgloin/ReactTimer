@@ -7,11 +7,12 @@ const Stopwatch = require('Stopwatch');
 const $ = require('jQuery');
 
 //load foundation
-require('style-loader!css-loader!foundation-sites/dist/css/foundation.min.css');
+//require('style-loader!css-loader!foundation-sites/dist/css/foundation.min.css');
 $(document).foundation();
 
 //app.css
-require('style-loader!css-loader!sass-loader!applicationStyles');
+//require('style-loader!css-loader!sass-loader!applicationStyles');
+require('applicationStyles');
 
 ReactDOM.render(
 	<Router history={hashHistory}>

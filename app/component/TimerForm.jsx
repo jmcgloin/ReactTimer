@@ -5,6 +5,8 @@ const TimerForm = React.createClass({
 		e.preventDefault();
 		let seconds = this.refs.seconds.value;
 
+		console.log('input count', $('input').length);
+
 		if(seconds.match(/^[0-9]+$/)) {
 			this.refs.seconds.value = "";
 			this.props.onSetTimer(parseInt(seconds,10));

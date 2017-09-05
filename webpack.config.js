@@ -44,7 +44,27 @@ module.exports = {
 				},
 				test: /\.jsx?$/,
 				exclude: /(node_modules|bower_components)/
-			}
+			},
+       		{
+         		test: /\.scss$/,
+         		use: [
+           			{
+             			loader: 'style-loader'
+           			},
+           			{
+             			loader: 'css-loader'
+           			},
+           			{
+             			loader: 'sass-loader',
+             			options: {
+               			includePaths: [
+                 				path.resolve(__dirname, './app/styles'),
+                 				path.resolve(__dirname, './node_modules/foundation-sites/scss'),
+               				]
+             			}
+           			}
+         		]
+        	}
 		]
 	},
 	devtool: "eval-source-map"
