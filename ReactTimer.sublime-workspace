@@ -179,10 +179,10 @@
 			}
 		},
 		{
-			"file": "app/styles/components/_page-title.scss",
+			"file": "app/component/Stopwatch.jsx",
 			"settings":
 			{
-				"buffer_size": 53,
+				"buffer_size": 1644,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -204,8 +204,8 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 232.0,
-		"last_filter": "renam",
+		"height": 332.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -593,7 +593,7 @@
 				"Set Syntax: JavaScript"
 			]
 		],
-		"width": 485.0
+		"width": 521.0
 	},
 	"console":
 	{
@@ -640,14 +640,11 @@
 		"/home/devj/Desktop/ReactTimer",
 		"/home/devj/Desktop/ReactTimer/app",
 		"/home/devj/Desktop/ReactTimer/app/component",
-		"/home/devj/Desktop/ReactTimer/app/styles",
-		"/home/devj/Desktop/ReactTimer/app/styles/components",
-		"/home/devj/Desktop/ReactTimer/app/tests",
-		"/home/devj/Desktop/ReactTimer/app/tests/component",
-		"/home/devj/Desktop/ReactTimer/public"
+		"/home/devj/Desktop/ReactTimer/app/styles"
 	],
 	"file_history":
 	[
+		"/home/devj/Desktop/ReactTimer/app/styles/components/_page-title.scss",
 		"/home/devj/Desktop/ReactTimer/app/styles/app.scss",
 		"/home/devj/Desktop/ReactTimer/app/tests/component/Timer.test.jsx",
 		"/home/devj/Desktop/ReactTimer/app/styles/components/_controls.scss",
@@ -869,8 +866,8 @@
 						"selection":
 						[
 							[
-								292,
-								292
+								133,
+								133
 							]
 						],
 						"settings":
@@ -880,7 +877,7 @@
 							"open_with_edit": true,
 							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
 						},
-						"translation.x": 0.0,
+						"translation.x": 29.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
@@ -915,7 +912,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -931,8 +928,8 @@
 						"selection":
 						[
 							[
-								1489,
-								1489
+								1590,
+								1590
 							]
 						],
 						"settings":
@@ -942,37 +939,36 @@
 							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 798.0,
+						"translation.y": 741.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "app/styles/components/_page-title.scss",
+					"file": "app/component/Stopwatch.jsx",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 53,
+						"buffer_size": 1644,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								51,
-								51
+								1448,
+								1448
 							]
 						],
 						"settings":
 						{
 							"git_gutter_is_enabled": true,
-							"open_with_edit": true,
-							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage"
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 684.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -991,8 +987,8 @@
 						"selection":
 						[
 							[
-								831,
-								831
+								870,
+								870
 							]
 						],
 						"settings":
@@ -1005,7 +1001,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]

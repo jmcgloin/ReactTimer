@@ -60,7 +60,7 @@ const Stopwatch = React.createClass({
 		};
 		return (
 			<div>
-				<h1 className="page-title">Stopwatch App{swStatus}</h1>
+				<h1 className="page-title">Stopwatch App</h1>
 				<Clock totalSeconds={count}/>
 				{renderControlArea()}
 			</div>
